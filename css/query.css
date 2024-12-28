@@ -1,0 +1,551 @@
+@media (min-width: 280px) and (max-width: 320px){
+        .brand .logo{
+            width: auto;
+            height: 50px;
+            display: flex;
+        }
+        .services{
+            .services-wrapper{
+                .service{
+                    .service-icon{
+                        height: 32px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .software-icon{
+            height: 32px;
+            width: auto;
+        }
+        .navbar{
+            padding: 0.5rem 3%;
+        }
+        .hamburger{
+            display: block;
+        }
+        .hamburger.active .bar:nth-child(2){
+            opacity: 0;
+        }
+        .hamburger.active .bar:nth-child(1){
+            transform: translateY(8px) rotate(45deg);
+        }
+        .hamburger.active .bar:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+        }
+        .nav-menu{
+            position: fixed;
+            flex-direction: column;
+            background-color: var(--black);
+            top: 70px;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            gap: 5px;
+            left: -100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: flex-start;
+            padding-bottom: 10%;
+        }
+        .item{
+            margin: 5% 0;
+        }
+        .nav-menu.active{
+            left: 0;
+        }
+        html{
+            font-size: 69%;
+        }
+        section{
+            padding: 0.5rem 5%;
+        }
+        .home{
+            padding-top: 6rem;
+            flex-direction: column-reverse;
+            margin-bottom: 10%;
+        }
+        .name-tag{
+            font-size: 250%;
+        }
+        h3{
+            font-size: 130%;
+        }
+        h4{
+            font-size: 100%;
+            font-weight: 400;
+        }
+        .information{
+            margin: 0;
+            width: 100%;
+            justify-self: center;
+        }
+        .about{
+            flex-direction: column;
+        }
+        .about-text{
+            margin-bottom: 10%;
+        }
+        .about-image{
+            margin-top: 15%;
+            flex-basis: 100%;
+        }
+        .cta-buttons{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .services-wrapper{
+            padding-bottom: 10%;
+            gap: 20px;
+        }
+        .services{
+            margin: 0;
+            margin-top: 18%;
+        }
+        .compentence{
+            margin-top: 18%;
+        }
+        .hire{
+            margin-top: 18%;
+        }
+        .hire-reasons{
+            gap: 10px;
+        }
+        .contacts{
+            padding: 0;
+        }
+        .icon i{
+            font-size: 200%;
+        }
+        .icon span{
+            font-size: 100%;
+        }
+        .skill-card{
+            padding-bottom: 6%;
+        }
+        .foot{
+            gap: 10px;
+        }
+        .footer-logo{
+            height: 32px;
+        }
+    }
+
+    
+  
+@media (min-width: 321px) and (max-width: 480px){
+    .brand .logo{
+        width: auto;
+        height: 60px;
+        display: flex;
+    }
+    .hoodie-pic{
+        margin-top: 15%;
+    }
+   
+    .services{
+        .services-wrapper{
+            .service{
+                .service-icon{
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .services{
+        padding-top: 10%;
+    }
+
+    .software-icon{
+        height: 40px;
+        width: auto;
+    }
+    .navbar{
+        padding: 0.5rem 3%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--black);
+        top: 73px;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 5px;
+        left: -100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 10%;
+    }
+    .item{
+        margin: 5% 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    html{
+        font-size: 75%;
+    }
+    section{
+        padding: 0.5rem 5%;
+    }
+    .home{
+        padding-top: 6rem;
+        flex-direction: column-reverse;
+        margin-bottom: 10%;
+    }
+    .name-tag{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 130%;
+    }
+    h4{
+        font-size: 100%;
+        font-weight: 400;
+    }
+    .information{
+        margin: 0;
+        width: 100%;
+        justify-self: center;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-text{
+        margin-bottom: 10%;
+    }
+    .about-image{
+        flex-basis: 100%;
+    }
+    .cta-buttons{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .services-wrapper{
+        padding-bottom: 10%;
+        gap: 20px;
+    }
+    .services{
+        margin: 0;
+        margin-top: 12%;
+    }
+    .compentence{
+        margin-top: 18%;
+    }
+    .hire{
+        margin-top: 18%;
+    }
+    .hire-reasons{
+        gap: 10px;
+    }
+    .contacts{
+        padding: 0;
+    }
+    .icon i{
+        font-size: 200%;
+    }
+    .icon span{
+        font-size: 100%;
+    }
+    .skill-card{
+        padding-bottom: 6%;
+    }
+    .foot{
+        gap: 15px;
+    }
+    .footer-logo{
+        height: 40px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    .brand .logo{
+        width: auto;
+        height: 65px;
+        display: flex;
+    }
+    .services{
+        .services-wrapper{
+            .service{
+                .service-icon{
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .software-icon{
+        height: 40px;
+        width: auto;
+    }
+    .navbar{
+        padding: 0.5rem 3%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--black);
+        top: 79px;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 5px;
+        left: -100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 10%;
+    }
+    .item{
+        margin: 5% 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    html{
+        font-size: 80%;
+    }
+    section{
+        padding: 0.5rem 5%;
+    }
+    .home{
+        padding-top: 6rem;
+        flex-direction: column-reverse;
+        margin-bottom: 10%;
+    }
+    .name-tag{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 130%;
+    }
+    h4{
+        font-size: 100%;
+        font-weight: 400;
+    }
+    .information{
+        margin: 0;
+        width: 100%;
+        justify-self: center;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-text{
+        margin-bottom: 10%;
+    }
+    .about-image{
+        flex-basis: 100%;
+    }
+    .hoodie-pic{
+        margin-top: 12%;
+    }
+    .cta-buttons{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .services-wrapper{
+        padding-bottom: 10%;
+        gap: 20px;
+    }
+    .services{
+        margin: 0;
+        margin-top: 12%;
+    }
+    .hire{
+        margin-top: 12%;
+    }
+    .hire-reasons{
+        gap: 20px;
+    }
+    .contacts{
+        padding: 0;
+    }
+    .icon i{
+        font-size: 200%;
+    }
+    .icon span{
+        font-size: 100%;
+    }
+    .skill-card{
+        padding-bottom: 6%;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+    .activated{
+        text-transform: uppercase;
+    }
+    .foot{
+        gap: 15px;
+    }
+    .footer-logo{
+        height: 48px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .brand .logo{
+        width: auto;
+        height: 70px;
+        display: flex;
+    }
+    .services{
+        .services-wrapper{
+            .service{
+                .service-icon{
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .software-icon{
+        height: 40px;
+        width: auto;
+    }
+    .navbar{
+        padding: 0.5rem 3%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--black);
+        top: 84px;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 5px;
+        left: -100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 10%;
+    }
+    .item{
+        margin: 5% 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    html{
+        font-size: 80%;
+    }
+    section{
+        padding: 0.5rem 5%;
+    }
+    .home{
+        padding-top: 7rem;
+        flex-direction: row;
+        margin-bottom: 10%;
+    }
+    .name-tag{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 130%;
+    }
+    h4{
+        font-size: 100%;
+        font-weight: 400;
+    }
+    .information{
+        margin: 0;
+        width: 100%;
+        justify-self: center;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-text{
+        margin-bottom: 7%;
+        margin-top: 9%;
+    }
+    .about-image{
+        flex-basis: 100%;
+    }
+    .about{
+        .about-image{
+            .hoodie-pic{
+                display: none;
+            }
+        }
+    }
+    .cta-buttons{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .services-wrapper{
+        padding-bottom: 10%;
+        gap: 20px;
+    }
+    .services{
+        margin: 0;
+        margin-top: 9%;
+    }
+    .hire-reasons{
+        gap: 30px;
+    }
+    .contacts{
+        padding: 0;
+    }
+    .icon i{
+        font-size: 200%;
+    }
+    .icon span{
+        font-size: 100%;
+    }
+    .skill-card{
+        padding-bottom: 6%;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+    .foot{
+        gap: 15px;
+    }
+    .footer-logo{
+        height: 56px;
+    }
+}
